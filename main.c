@@ -47,6 +47,11 @@ void shuffle(char *array[], int length) {
 }
 
 int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        printf("usage: %s <world seed>\n", argv[0]);
+        return 1;
+    }
+
     int64_t world_seed = strtoll(argv[1], NULL, 10);
 
     setSeed(world_seed);
