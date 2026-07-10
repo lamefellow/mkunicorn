@@ -70,8 +70,13 @@ int main(int argc, char *argv[]) {
 
     shuffle(recipe, 9);
 
-    for (int i = 0; i < 9; i++) {
-        printf("Slot %d: %s\n", i, recipe[i]);
+    printf("--------------------------------------------------------\n");
+
+    for (int i = 0; i < 9; i += 3) {
+        printf("%-15s | %-15s | %-15s\n", recipe[i], recipe[i+1], recipe[i+2]);
     }
+
+    printf("--------------------------------------------------------\n");
+
     return 0;
 }
