@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
-    I wrote allat for something that would take three lines of Java
+    I wrote Java's LCG for this even though this would take ~5 lines of Java, but I'm a masochist ig
     This picks away at generateRecipe in MKUCraftingHandler.java (HBM's Nuclear Tech) and takes the world seed as an argument
     https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/blob/master/src/main/java/com/hbm/crafting/handlers/MKUCraftingHandler.java#L47
 */
